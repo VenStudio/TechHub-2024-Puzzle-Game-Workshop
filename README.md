@@ -93,7 +93,7 @@ When you do, make sure to share them around, so people can appreciate your games
 
 **If you have any questions, don't hesitate to send me an email on venstudioscontact@gmail.com**
 
-**You can also follow me on [Twitter or X](https://x.com/ven_omar_) to keep up with my latest games, workshops, and projects!**
+**You can also follow me on [Twitter or X](https://x.com/ven_omar_) to stay up-to-date with my latest games, workshops, and projects!**
 
 **And Finally, if you'd like to try out my games, you can check them out at [ven-studios.itch.io](https://ven-studios.itch.io)**
 
