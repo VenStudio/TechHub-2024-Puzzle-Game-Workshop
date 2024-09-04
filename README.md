@@ -1,7 +1,6 @@
 # TechHub 2024 Puzzle Game Workshop
 
-Worksop presentation:
-https://www.canva.com/design/DAGPcPYbmho/1Rc6hCmdCoISZNFJ8j34zw/edit?utm_content=DAGPcPYbmho&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+ Access the Worksop presentation [here](https://www.canva.com/design/DAGPcPYbmho/1Rc6hCmdCoISZNFJ8j34zw/edit?utm_content=DAGPcPYbmho&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 I hope you enjoyed my workshop!  
 If you are wondering "Now that the workshop is done, **where do we go from here?**". You came to the right place!
