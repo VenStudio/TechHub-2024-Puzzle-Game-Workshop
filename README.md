@@ -54,7 +54,7 @@ if you are wondering which one you should join, I recommend the following:
 
 - [Global Game Jam](https://globalgamejam.org/) is a 3-day annual game jam that is hosted locally everywhere around the world, if you are in Jeddah, [Dev Play Go](https://x.com/DevPlayGo) host the jam every year, you can follow their Twitter(or X) page and stay up to date with the jam!
 - [Brakeys Game Jam](https://itch.io/jam/brackeys-12) is a 7-days bi-annual online game jam hosted by the Brakeys YouTube channel, it is one of the biggest game jams every year, and give you 7 days to make your game.
-- [Pirate Software Game Jam](https://itch.io/jam/pirate) is a 2-week jam hosted by a veteran Game developer and streamer "Thor". The unique difference in this jam is the requirement to submit a Game Design Document (GDD), which is a document that describes how your game is designed.
+- [Pirate Software Game Jam](https://itch.io/jam/pirate) is a 2-week jam hosted by a veteran Game developer and streamer "Jason Thor". The unique difference in this jam is the requirement to submit a Game Design Document (GDD), which is a document that describes how your game is designed.
 
 Game jams are a great way to learn, and interact with the community! Don't be fret to join one, the community welcomes new game devs!
 
