@@ -17,8 +17,6 @@ public class Tile : MonoBehaviour
     }
 
     void OnTriggerExit2D(Collider2D other) {
-        print(other);
-        if(other.tag == "Player")
-            gameObject.SetActive(false);
+        gameObject.SetActive(false);
     }
 }

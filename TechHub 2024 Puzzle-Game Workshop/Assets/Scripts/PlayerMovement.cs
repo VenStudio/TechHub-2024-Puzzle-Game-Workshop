@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -14,31 +13,30 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // reload game
-        if(Input.GetKeyDown(KeyCode.R))
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-
-        Vector3 tileDetector = Vector3.zero;
+        // Create the variable
+        Vector3 movementDirection = Vector3.zero;
 
         // Calculate the movement
         if(Input.GetKeyDown(KeyCode.W))
-            tileDetector.y = 1;
-        if(Input.GetKeyDown(KeyCode.S))
-            tileDetector.y = -1;
-        if(Input.GetKeyDown(KeyCode.D))
-            tileDetector.x = 1;
-        if(Input.GetKeyDown(KeyCode.A))
-            tileDetector.x = -1;
+            movementDirection.y = 1;
+        else if(Input.GetKeyDown(KeyCode.S))
+            movementDirection.y = -1;
+        else if(Input.GetKeyDown(KeyCode.D))
+            movementDirection.x = 1;
+        else if(Input.GetKeyDown(KeyCode.A))
+            movementDirection.x = -1;
 
-        if (tileDetector != Vector3.zero)
+        if (movementDirection != Vector3.zero)
         {
             // Check if the target position has a ground tile
-            bool isGround = Physics2D.OverlapCircle(transform.position + tileDetector, 0.1f, LayerMask.GetMask("Ground"));
+            Vector3 targetPosition = transform.position + movementDirection;
+
+            bool isGround = Physics2D.OverlapCircle(targetPosition, 0.1f);
 
             if (isGround)
             {
                 // Set player position to the target position
-                transform.position += tileDetector;
+                transform.position += movementDirection;
             }
         }
     }
